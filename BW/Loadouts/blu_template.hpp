@@ -76,7 +76,7 @@ class blu_f {
 	// Radio
 	#define WEST_RADIO_RIFLEMAN "tf_rf7800str"
 	#define WEST_RADIO_SHORTWAVE "tf_anprc152"
-	#define WEST_RADIO_MANPACK "tf_rt1523g_rhs"
+	#define WEST_RADIO_MANPACK "tf_rt1523g_big"
 	#define WEST_RADIO_AIRBORNE "tf_anarc210"
 
 	// By default, BLUFOR uses White, Black, and Asian faces.
