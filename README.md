@@ -1,6 +1,6 @@
 # Campus Martius #
 
-*Kunduz Province, Afghanistan*
+*Island of Stratis*
 
 An open training ground for Legion Tactical training nights.
 
