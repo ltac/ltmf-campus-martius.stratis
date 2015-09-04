@@ -78,7 +78,7 @@ enableDebugConsole = 1;
 respawn = "INSTANT";
 respawnDelay = 30;
 respawnVehicleDelay = 60;
-respawnOnStart = 0;
+respawnOnStart = 1;
 respawnTemplates[] = {"MenuPosition"};
 
 // ============================================================================================

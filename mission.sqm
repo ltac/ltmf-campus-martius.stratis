@@ -39,7 +39,6 @@ class Mission
 		"rhs_c_a2port_car",
 		"A3_Weapons_F_Beta_Ammoboxes",
 		"a3_weapons_f_ammoboxes",
-		"pra3_kz",
 		"alive_sys_profile",
 		"alive_main",
 		"alive_amb_civ_placement",
@@ -7445,7 +7444,6 @@ class Intro
 {
 	addOns[]=
 	{
-		"pra3_kz",
 		"a3_map_stratis"
 	};
 	addOnsAuto[]=
@@ -7476,7 +7474,6 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"pra3_kz",
 		"a3_map_stratis"
 	};
 	addOnsAuto[]=
@@ -7507,7 +7504,6 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"pra3_kz",
 		"a3_map_stratis"
 	};
 	addOnsAuto[]=
