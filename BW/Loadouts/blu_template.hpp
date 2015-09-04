@@ -32,7 +32,7 @@ class blu_f {
 	 * This will add 8 EPR magazines and 2 yellow tracer magazines to
 	 * the loadout.
 	 */
- 
+
     // Rifle
 	#define WEST_RIFLE "rhs_weap_m4a1_carryhandle_grip2"
 	#define WEST_RIFLE_MAG "rhs_mag_30Rnd_556x45_Mk318_Stanag:8","rhs_mag_m18_red:2"
@@ -82,7 +82,7 @@ class blu_f {
 	// By default, BLUFOR uses White, Black, and Asian faces.
 	// If you want something else, specify the list here.
 	faces[] = {};
-	
+
 	// Define the cargo for Vehicles
     class Car {
         TransportMagazines[] = {
@@ -99,7 +99,7 @@ class blu_f {
 			"ACE_morphine:4"
 		};
     };
-	
+
 	// Define the cargo for Tanks
     class Tank {
         TransportMagazines[] = {
@@ -164,7 +164,7 @@ class blu_f {
 	-SAM Assistant
 	-Mortar Gunner
 	-Mortar Assistant
-	
+
 	Each specific class can add to or completely override the
 	loadouts defined by this base
 	*/
@@ -172,10 +172,10 @@ class blu_f {
 		/* Randomized gear
 		One item from each of these lists will be chosen at
 		random when the unit spawns.
-		
+
 		Leave the list empty {} to add nothing of that type.
 		*/
-		
+
 		// Define the list of possible uniforms that units will wear
         uniform[] = {
             "rhs_uniform_cu_ocp"
@@ -209,15 +209,15 @@ class blu_f {
 		// will be assigned
         handguns[] = {};
 		/* END Randomized Gear */
-		
+
 		/*
 		Gear lists
-		
+
 		These lists are not randomized; all items from these lists
 		will selected and placed in the unit's inventory.
 		Leave them empty {} to add nothing of that type by default.
 		*/
-		
+
 		// List the items (along with the amount) that will be placed
 		// specifically in the unit's backpack
 		backpackItems[] = {
@@ -231,8 +231,8 @@ class blu_f {
 		// inventory
         magazines[] = {
             WEST_RIFLE_MAG,
-            "rhs_mag_m67:2",
-            "rhs_mag_an_m8hc:2"
+            "HandGrenade:2",
+            "SmokeShell:2"
         };
 		// List the items (along with the amount) that will be placed
 		// wherever there is room in the unit's inventory
@@ -258,29 +258,29 @@ class blu_f {
     };
 
 	/* END RIFLEMAN BASE */
-	
+
 	/* RIFLEMAN EXTENSIONS */
-	
+
 	/*
 	The next set of units all copy their gear from the Rifleman Base,
 	as defined with the : in the class definition. For example,
-	
+
 	    class B_officer_F : B_Soldier_F
-		
+
 	says that B_officer_F will have the same properties and data
 	as B_Soldier_F unless specifically set otherwise.
-	
+
 	You can override a certain type of gear by setting it to something
 	new using =
 	For example:
 	backpack[] = {WEST_RADIO_MANPACK};
-	
+
 	Instead of replacing gear, you can also add to gear by using +=
 	For example, to add GPS in addition to the base Watch, Map,
 	and Compass:
 	linkedItems[] += {"ItemGPS"};
 	*/
-	
+
 	// CO and DC
 	// Define gear additions and overrides for Officer units
     class B_officer_F: B_Soldier_F {
@@ -292,8 +292,8 @@ class blu_f {
 			WEST_GLRIFLE_MAG_SMOKE,
 			WEST_GLRIFLE_MAG_FLARE,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:2",
-			"rhs_mag_an_m8hc:2",
+			"HandGrenade:2",
+			"SmokeShell:2",
 			"rhs_mag_m18_green:2"
 		};
         handguns[] = {WEST_PISTOL}; /// randomized
@@ -338,10 +338,10 @@ class blu_f {
 			WEST_GLRIFLE_MAG_SMOKE,
 			WEST_GLRIFLE_MAG_FLARE,
 			"rhs_mag_m18_green:2",
-			"rhs_mag_m67:2",
-			"rhs_mag_an_m8hc:2",
-			"rhs_mag_m67:1",
-			"rhs_mag_an_m8hc:2"
+			"HandGrenade:2",
+			"SmokeShell:2",
+			"HandGrenade:1",
+			"SmokeShell:2"
 		};
         backpackItems[] += {"ACE_key_west"};
         linkedItems[] += {
@@ -357,8 +357,8 @@ class blu_f {
         magazines[] = {
 			WEST_AR_MAG,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:2",
-			"rhs_mag_an_m8hc:2"
+			"HandGrenade:2",
+			"SmokeShell:2"
 		};
         handguns[] = {WEST_PISTOL}; /// randomized
     };
@@ -378,8 +378,8 @@ class blu_f {
         magazines[] = {
 			WEST_CARBINE_MAG,
 			WEST_AT_MAG,
-			"rhs_mag_m67:2",
-			"rhs_mag_an_m8hc:2"
+			"HandGrenade:2",
+			"SmokeShell:2"
 		};
         launchers[] = {WEST_AT};
     };
@@ -390,7 +390,7 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
 			WEST_CARBINE_MAG,
-			"rhs_mag_an_m8hc:6"
+			"SmokeShell:6"
 		};
         backpackItems[] = {
 			"ACE_fieldDressing:31",
@@ -408,8 +408,8 @@ class blu_f {
         magazines[] = {
 			WEST_MMG_MAG,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:1",
-			"rhs_mag_an_m8hc:2"
+			"HandGrenade:1",
+			"SmokeShell:2"
 		};
         handguns[] = {WEST_PISTOL}; /// randomized
         attachments[] = {};
@@ -429,8 +429,8 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
-            "rhs_mag_an_m8hc:2"
+            "HandGrenade:2",
+            "SmokeShell:2"
         };
         launchers[] = {WEST_MAT};
         items[] += {
@@ -462,9 +462,9 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "MiniGrenade:1",
-            "rhs_mag_an_m8hc:2"
+            "SmokeShell:2"
         };
         launchers[] = {WEST_SAM};
         backpackItems[] += {WEST_SAM_MAG};
@@ -484,8 +484,8 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
-            "rhs_mag_an_m8hc:2"
+            "HandGrenade:2",
+            "SmokeShell:2"
         };
         items[] += {
 			"ACE_fieldDressing:3",
@@ -508,9 +508,9 @@ class blu_f {
     };
 
 	/* END RIFLEMAN EXTENSIONS */
-	
+
 	/* SPOTTER BASE */
-	
+
 	// Define the base class for Spotter units
     class B_spotter_F {
 		uniform[] = {
@@ -533,15 +533,15 @@ class blu_f {
 		backpack[] = {
             "rhsusf_assault_eagleaiii_ocp"
         };
-		
+
         weapons[] = {WEST_SPOTTER};
         launchers[] = {};
         handguns[] = {};
-		
+
         magazines[] = {
 			WEST_SPOTTER_MAG,
-			"rhs_mag_an_m8hc:2",
-			"rhs_mag_m67:2"
+			"SmokeShell:2",
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -565,7 +565,7 @@ class blu_f {
     };
 
 	/* SNIPER BASE */
-	
+
 	// Define the base class for Sniper units
     class B_sniper_F {
 		uniform[] = {
@@ -588,15 +588,15 @@ class blu_f {
 		backpack[] = {
             "rhsusf_assault_eagleaiii_ocp"
         };
-		
+
         weapons[] = {WEST_SNIPER};
         launchers[] = {};
         handguns[] = {};
-		
+
         magazines[] = {
 			WEST_SNIPER_MAG,
-			"rhs_mag_an_m8hc:2",
-			"rhs_mag_m67:2"
+			"SmokeShell:2",
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -621,7 +621,7 @@ class blu_f {
     };
 
 	/* HELICOPTER CREW BASE */
-	
+
 	// Heli Pilot
 	// Define the base class for all Helicopter pilot and crew units
     class B_Helipilot_F {
@@ -637,15 +637,15 @@ class blu_f {
 		backpack[] = {
             "rhsusf_assault_eagleaiii_ocp"
         };
-		
+
         weapons[] = {WEST_SMG};
 		launchers[] = {};
         handguns[] = {WEST_PISTOL};
-		
+
         magazines[] = {
 			WEST_SMG_MAG,
 			WEST_PISTOL_MAG,
-			"rhs_mag_an_m8hc:2"
+			"SmokeShell:2"
 		};
         backpackItems[] += {"ACE_key_west"};
         items[] = {
@@ -671,7 +671,7 @@ class blu_f {
     };
 
 	/* VEHICLE CREW BASE */
-	
+
 	// Define the base class for all vehicle crew and engineer units
     class B_crew_F {
         uniform[] = {
@@ -694,14 +694,14 @@ class blu_f {
 		backpack[] = {
             "rhsusf_assault_eagleaiii_ocp"
         };
-		
+
         weapons[] = {WEST_SMG};
 		launchers[] = {};
         handguns[] = {};
-		
+
         magazines[] = {
 			WEST_SMG_MAG,
-			"rhs_mag_an_m8hc:2"
+			"SmokeShell:2"
 		};
         backpackItems[] = {"ACE_key_west"};
         items[] = {
@@ -727,8 +727,8 @@ class blu_f {
 		weapons[] = {WEST_CARBINE};
 		magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
-            "rhs_mag_an_m8hc:2"
+            "HandGrenade:2",
+            "SmokeShell:2"
         };
         backpack[] = {"B_Kitbag_rgr"};
         backpackItems[] = {"Toolkit"};

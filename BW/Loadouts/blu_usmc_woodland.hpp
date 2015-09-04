@@ -171,7 +171,7 @@ class blu_f {
 		// inventory
         magazines[] = {
             WEST_RIFLE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
 		// List the items (along with the amount) that will be placed
@@ -212,7 +212,7 @@ class blu_f {
 			WEST_GLRIFLE_MAG_SMOKE,
 			WEST_GLRIFLE_MAG_FLARE,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2",
 			"rhs_mag_m18_green:2"
 		};
@@ -260,9 +260,9 @@ class blu_f {
 			WEST_GLRIFLE_MAG_SMOKE,
 			WEST_GLRIFLE_MAG_FLARE,
 			"rhs_mag_m18_green:2",
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2",
-			"rhs_mag_m67:1",
+			"HandGrenade:1",
 			"SmokeShell:2"
 		};
         backpackItems[] += {"ACE_key_west"};
@@ -280,7 +280,7 @@ class blu_f {
         magazines[] = {
 			WEST_AR_MAG,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2"
 		};
         handguns[] = {WEST_PISTOL}; /// randomized
@@ -301,7 +301,7 @@ class blu_f {
         magazines[] = {
 			WEST_CARBINE_MAG,
 			WEST_AT_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2"
 		};
         launchers[] = {WEST_AT};
@@ -331,7 +331,7 @@ class blu_f {
         magazines[] = {
 			WEST_MMG_MAG,
 			WEST_PISTOL_MAG,
-			"rhs_mag_m67:1",
+			"HandGrenade:1",
 			"SmokeShell:2"
 		};
         handguns[] = {WEST_PISTOL}; /// randomized
@@ -352,7 +352,7 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         launchers[] = {WEST_MAT};
@@ -385,7 +385,7 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "MiniGrenade:1",
             "SmokeShell:2"
         };
@@ -407,7 +407,7 @@ class blu_f {
         weapons[] = {WEST_CARBINE};
         magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         items[] += {
@@ -459,7 +459,7 @@ class blu_f {
         magazines[] = {
 			WEST_SPOTTER_MAG,
 			"SmokeShell:2",
-			"rhs_mag_m67:2"
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -509,7 +509,7 @@ class blu_f {
         magazines[] = {
 			WEST_SNIPER_MAG,
 			"SmokeShell:2",
-			"rhs_mag_m67:2"
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -639,7 +639,7 @@ class blu_f {
 		weapons[] = {WEST_CARBINE};
 		magazines[] = {
             WEST_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         backpack[] = {"B_Kitbag_rgr"};

@@ -192,7 +192,7 @@ class ind_f {
 		// inventory
         magazines[] = {
             IND_RIFLE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
 		// List the items (along with the amount) that will be placed
@@ -229,7 +229,7 @@ class ind_f {
 			IND_GLRIFLE_MAG_SMOKE,
 			IND_GLRIFLE_MAG_FLARE,
 			IND_PISTOL_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2",
 			"rhs_mag_m18_green:2"
 		};
@@ -277,9 +277,9 @@ class ind_f {
 			IND_GLRIFLE_MAG_SMOKE,
 			IND_GLRIFLE_MAG_FLARE,
 			"rhs_mag_m18_green:2",
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2",
-			"rhs_mag_m67:1",
+			"HandGrenade:1",
 			"SmokeShell:2"
 		};
         backpackItems[] += {"ACE_key_indp"};
@@ -296,7 +296,7 @@ class ind_f {
         magazines[] = {
 			IND_AR_MAG,
 			IND_PISTOL_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2"
 		};
         handguns[] = {IND_PISTOL}; /// randomized
@@ -317,7 +317,7 @@ class ind_f {
         magazines[] = {
 			IND_CARBINE_MAG,
 			IND_AT_MAG,
-			"rhs_mag_m67:2",
+			"HandGrenade:2",
 			"SmokeShell:2"
 		};
         launchers[] = {IND_AT};
@@ -347,7 +347,7 @@ class ind_f {
         magazines[] = {
 			IND_MMG_MAG,
 			IND_PISTOL_MAG,
-			"rhs_mag_m67:1",
+			"HandGrenade:1",
 			"SmokeShell:2"
 		};
         handguns[] = {IND_PISTOL}; /// randomized
@@ -368,7 +368,7 @@ class ind_f {
         weapons[] = {IND_CARBINE};
         magazines[] = {
             IND_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         launchers[] = {IND_MAT};
@@ -401,7 +401,7 @@ class ind_f {
         weapons[] = {IND_CARBINE};
         magazines[] = {
             IND_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "MiniGrenade:1",
             "SmokeShell:2"
         };
@@ -423,7 +423,7 @@ class ind_f {
         weapons[] = {IND_CARBINE};
         magazines[] = {
             IND_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         items[] += {
@@ -486,7 +486,7 @@ class ind_f {
         magazines[] = {
 			IND_SPOTTER_MAG,
 			"SmokeShell:2",
-			"rhs_mag_m67:2"
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -547,7 +547,7 @@ class ind_f {
         magazines[] = {
 			IND_SNIPER_MAG,
 			"SmokeShell:2",
-			"rhs_mag_m67:2"
+			"HandGrenade:2"
 		};
         items[] = {
 			"ACE_fieldDressing:3",
@@ -678,7 +678,7 @@ class ind_f {
 		weapons[] = {IND_CARBINE};
 		magazines[] = {
             IND_CARBINE_MAG,
-            "rhs_mag_m67:2",
+            "HandGrenade:2",
             "SmokeShell:2"
         };
         backpack[] = {"B_Kitbag_rgr"};
