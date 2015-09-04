@@ -5,7 +5,7 @@
 
 class Header
 {
-	gameType=ZGM;
+	gameType = ZGM;
 	minPlayers = 1;
 	maxPlayers = 457;
 };
@@ -75,10 +75,11 @@ enableDebugConsole = 1;
 // F3 - Respawn Settings
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-respawn = "BASE";
-respawndelay = 3;
+respawn = "INSTANT";
+respawnDelay = 30;
+respawnVehicleDelay = 60;
 respawnOnStart = 0;
-respawnTemplates[] = {};
+respawnTemplates[] = {"MenuPosition"};
 
 // ============================================================================================
 
