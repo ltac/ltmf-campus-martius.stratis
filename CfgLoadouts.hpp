@@ -30,9 +30,9 @@ class CfgLoadouts {
     //#include "BW\Loadouts\opf_pla_desert.hpp" // WIP
     //#include "BW\Loadouts\opf_pla_woodland.hpp" // WIP
     //#include "BW\Loadouts\opf_russia_desert.hpp" // WIP
-    //#include "BW\Loadouts\opf_russia_woodland.hpp" // Russia, Woodland Digital, AK74
+    #include "BW\Loadouts\opf_russia_woodland.hpp" // Russia, Woodland Digital, AK74
     //#include "BW\Loadouts\opf_russia_snow.hpp" // WIP
-    #include "BW\Loadouts\opf_afghan.hpp" // Afghani, AKM
+    //#include "BW\Loadouts\opf_afghan.hpp" // Afghani, AKM
 
     /* CIVILIAN FACTIONS */
 	// Comment this out if you are using a different civilian faction
